@@ -1,0 +1,29 @@
+#plateau{
+    width: 50%;
+    aspect-ratio: 1/1;
+    background-color: aqua;
+    margin: auto;
+}
+.marge{
+    width: calc(100%/6 - 1.6px);
+    aspect-ratio: 1/1;
+    background-color: beige;
+    float: left;
+    border: 1px solid black;
+}
+.case{
+    width: calc(100%/6 - 1.6px);
+    aspect-ratio: 1/1;
+    background-color: cadetblue;
+    float: left;
+    border: 1px solid black;
+}
+.corner{
+    background-color: darkgray;
+}
+.valeurEntrer{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border: 0px;
+    padding: 0px;
+}
